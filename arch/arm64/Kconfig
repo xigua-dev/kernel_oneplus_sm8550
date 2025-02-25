@@ -2211,7 +2211,7 @@ config SALAMI_DTB
 	help
 	  Only include Oplus salami device specific device tree.
 
-config xigua
+config XIGUA_DTB
 	select OPLUS_DEVICE_DTBS
 	default n
 	bool "Oplus xigua device DTB"
